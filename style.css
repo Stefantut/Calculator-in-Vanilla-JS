@@ -91,3 +91,10 @@ h2 {
 #calc-parent {
     margin-left: calc(50% - 100px);
 }
+
+footer{
+    display:flex;
+    justify-content: center;
+    font-size: 12px;
+    margin-top: 1em;
+}
