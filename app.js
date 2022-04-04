@@ -105,6 +105,3 @@ decimalBtn.onclick = () => {
   if (!displayVal.includes(".")) displayVal += ".";
   displayValElement.innerHTML = displayVal; // update displayVal
 };
-
-const year = document.querySelector("#year");
-year.innerHTML = new Date().getFullYear();
